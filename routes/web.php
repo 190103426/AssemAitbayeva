@@ -20,3 +20,22 @@ Route::get('/', function () {
 Route::get('/user', function() {
     return view('user');
 })->name('user');
+
+Route::get('/html', function() {
+    return view('html');
+})->name('html');
+
+Route::get('/about', function() {
+    return view('about');
+})->name('about');
+
+Route::get('/portfolio', function() {
+    return view('portfolio');
+})->name('portfolio');
+
+ 
+
+
+
+
+
