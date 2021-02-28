@@ -22,7 +22,7 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="{{ route('index') }}" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="{{ route('html') }}" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href=" {{ route('about') }} " class="nav__link">About</a></li>
                        <li class="nav__item"><a href=" {{ route('portfolio') }} " class="nav__link">Portfolio</a></li>
                         <li class="nav__item"><a href=" {{ route('contact') }} " class="nav__link">Contact</a></li>
